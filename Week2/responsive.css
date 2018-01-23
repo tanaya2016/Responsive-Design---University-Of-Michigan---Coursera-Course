@@ -1,0 +1,141 @@
+
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 100%;
+	min-width: 500px;
+
+}
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+}
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);;
+
+}
+
+section{
+  margin:1%;
+    padding:1%;
+}
+
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 2%;
+	margin: 1%;
+}
+
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+}
+
+
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+
+	/* Safari and Chrome */	
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+	
+}
+
+
+
+ol{
+	list-style:upper-roman; 
+	margin:1em;
+}
+img{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 900px){
+
+
+	header{
+		background-color: transparent;;
+	}
+
+	h1::after { 
+    content: " (I guess...)";
+}
+
+
+	#left{
+		display: inline-block;
+		width: 20%;
+		min-width: 125px;
+		float: left;
+	}
+
+	#center{
+	display:inline-block;
+  	width:70%;
+  	
+  	overflow:auto;
+	}
+
+	img{
+		display: inline-block;
+		float: left;
+		height: 95px;
+		padding-top: 3%;
+		padding-left: 2%;
+	}
+
+	footer{
+		display: inline-block;
+		width: 70%;
+		clear: both;
+		text-align:center;
+		text-transform: uppercase;
+		background-color: transparent;
+		padding-left: 10%;
+
+	}
+
+}
+
+@media print {
+
+	h1{
+		font-size: 1em !important;
+
+	}
+
+	body{
+		background-color: transparent;
+
+	}
+
+	nav a {
+
+	border : none;
+	background-color: white;
+	
+	text-align: center ! important;
+	text-decoration: underline;
+	
+	
+	}
+}

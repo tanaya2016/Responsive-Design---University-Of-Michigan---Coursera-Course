@@ -1,0 +1,28 @@
+header{
+	background-color: #BABFC4;
+	font-variant: small-caps;
+
+}
+
+h1{
+	color : #FFFFFF;
+	text-align: center;
+	font-size: 50px ;
+}
+a{
+	color: #040404;
+	font-size: 20px;
+}
+
+.right{
+	background-color: #929495;
+}
+
+h2{
+	color:#052090;
+	font-size:30px;
+}
+
+.left{
+	display:none;
+}
